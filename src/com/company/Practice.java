@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Practice {
     public static void main(String[] args) {
+        System.out.println("vivek code");
 //        Scanner sc = new Scanner(System.in);
 //        System.out.println("Please enter month (1-12)");
 //        int month = sc.nextInt();

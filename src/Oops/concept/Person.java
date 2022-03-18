@@ -1,13 +1,12 @@
 package Oops.concept;
 
-public class Person {
+public String Person{
     private String firstname;
     private String lastname;
     private String address;
     private int age;
 
-    public Person(String firstname, String lastname, String address, int age) {
-        System.out.println("constructor without parameters is called");
+    public Person(String firstname, String lastname, String address, int age){
         this.firstname = "Yagna";
         this.lastname = "Kothapalli";
         this.address = "Canada";
@@ -38,3 +37,10 @@ public class Person {
         this.age = age;
     }
 }
+public void greet(){
+
+
+        }
+        public static void printName(){
+
+        }

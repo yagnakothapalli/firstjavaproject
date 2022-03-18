@@ -5,24 +5,36 @@ import Oops.concept.Person;
 
 public class main {
     public static void main(String[] args) {
-        Family f=new Family("Shashi","Keerthi","Rishik","Saisha");
-        System.out.println(f.displayNames());
+        int weight=73;
+        System.out.println(weight);
+        double height=1.75;
+        System.out.println(height);
+        double bmi=weight/height*height;
+        System.out.println("your BMI is"+" "+bmi);
+        System.out.println("vivel changes");
+
+
+
+
+//
+        Family f=new Family();
+        f.displayNames();
+        int savings=f.getSavings();
+        f.checkSavings(savings);
 
 
 
 
 
-
-
-        int age=20;
-        System.out.println(age);
-
-        Person y=new Person("Yagna","Kothapalli","Canada",20);
-        System.out.println(y.getFullName());
-        Person x=new Person();
-        System.out.println("Before address change"+" "+y.getAddress());
-        y.changeAddress("Vancouver");
-        System.out.println("After change address"+" "+y.getAddress());
+//        int age=20;
+//        System.out.println(age);
+//
+//        Person y=new Person("Yagna","Kothapalli","Canada",20);
+//        System.out.println(y.getFullName());
+//        Person x=new Person();
+//        System.out.println("Before address change"+" "+y.getAddress());
+//        y.changeAddress("Vancouver");
+//        System.out.println("After change address"+" "+y.getAddress());
 
 
 
